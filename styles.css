@@ -1,0 +1,27 @@
+.section1{
+    height: 100vh;
+    background: linear-gradient(to right, black, rgb(67, 0, 85), rgb(41, 27, 104));
+    background-size: 180% 180%;
+    animation: bg 15s ease infinite;
+}
+
+@keyframes bg{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+
+.profile{
+    border-radius: 50%;
+}
+
+.info{
+    border-left: 0.2em solid rgb(67, 0, 85);
+    padding-left: 1em;
+}
+
+.navbar{
+    background: linear-gradient(to right, black, rgb(67, 0, 85), rgb(41, 27, 104));
+    background-size: 180% 180%;
+    animation: bg 15s ease infinite;
+}
